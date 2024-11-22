@@ -13,6 +13,7 @@ import StartLearning from './Component/StartLearning';
 import Tutorials from './Component/Tutorials';
 import Aboutus from './Component/Aboutus';
 import Login from './Component/Login';
+import Signup from './Component/Signup';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login></Login> ,
+      },
+      {
+        path: "signup",
+        element: <Signup></Signup> ,
       },
 
     ],

@@ -44,12 +44,13 @@ const Navbar = () => {
 
   </div>
   <div className="navbar-center hidden lg:flex">
-    <div className=" menu menu-horizontal px-1  text-xl  ">
+    <div className=" menu menu-horizontal  px-1  text-xl  ">
     {links}
     </div >
   </div>
   <div className="navbar-end">
-    <NavLink to='login' className=" px-5 py-2 rounded-3xl text-xl font-semibold border-black border">Log in </NavLink>
+    <NavLink to='login' className=" px-5 py-2 rounded-3xl text-xl font-semibold border-sky-500 hover:bg-sky-400 hover:text-white border">Log in </NavLink>
+
   </div>
 </div>
         </div>
