@@ -7,13 +7,15 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './Component/Home';
+import Home from './Component/Pages/Home';
 import Root from './Component/Root';
-import StartLearning from './Component/StartLearning';
-import Tutorials from './Component/Tutorials';
-import Aboutus from './Component/Aboutus';
-import Login from './Component/Login';
-import Signup from './Component/Signup';
+import StartLearning from './Component/Pages/StartLearning';
+import Tutorials from './Component/Pages/Tutorials';
+import Aboutus from './Component/Pages/Aboutus';
+import Login from './Component/LogSign/Login';
+import Signup from './Component/LogSign/Signup';
+import AuthProvider from './Provider/AuthProvider';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -50,6 +52,9 @@ const router = createBrowserRouter([
 ]);
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-  <RouterProvider router={router} />
+   <AuthProvider>
+    <RouterProvider router={router} />
+   </AuthProvider>
+
   </StrictMode>,
 )
