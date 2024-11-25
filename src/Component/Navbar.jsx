@@ -80,10 +80,14 @@ const Navbar = () => {
             </div>
           </div>
           <div className="flex items-center justify-start">
+            
+            <NavLink to="/" className=" flex items-center justify-start  cursor-pointer">
             <img className="w-20" src="/public/assets/Lingo Bingo.png" alt="" />
-            <NavLink to="/" className="text-3xl font-semibold cursor-pointer">
-              Lingo Bingo
-            <div>{user && user.name}</div>
+            <div className="font-semibold md:text-3xl text-lg">
+            Lingo Bingo
+            </div>
+            
+            
             </NavLink>
           </div>
         </div>
@@ -91,9 +95,10 @@ const Navbar = () => {
           <div className="menu menu-horizontal gap-2 px-1 text-xl">{links}</div>
         </div>
         <div className="navbar-end">
+        <div className="text-3xl pr-10">{user && user.name}</div>
           <NavLink
             to="login"
-            className="px-5 py-2 rounded-3xl text-xl font-semibold border-sky-500 hover:bg-sky-400 hover:text-white border"
+            className="px-5 py-2 rounded-3xl md:text-xl text-sl font-semibold border-sky-500 hover:bg-sky-400 hover:text-white border"
           >
             Log in
           </NavLink>

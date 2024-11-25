@@ -35,24 +35,26 @@ const SuccessSection = () => {
     ];
 
     return (
-        <div className=" py-16">
-            <h2 className="text-center text-4xl md:text-5xl font-bold text-sky-600 mb-10">Our Achievements</h2>
-            <div className="stats  bg-sky-400 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 md:px-12 lg:px-24">
+        <div className="py-16 bg-gray-50">
+            <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-sky-600 mb-10">
+                Our Achievements
+            </h2>
+            <div className="grid gap-8 py-7 rounded-2xl px-6 bg-sky-500 sm:px-8 md:px-16 lg:px-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 {stats.map((stat) => (
                     <div
                         key={stat.id}
                         className="stat flex flex-col items-center bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300"
                     >
-                        
                         <div>{stat.icon}</div>
-                        
-                        <div className="stat-title text-lg font-medium text-gray-600 mt-4">{stat.title}</div>
-                        
+                        <div className="stat-title text-lg font-medium text-gray-600 mt-4 text-center">
+                            {stat.title}
+                        </div>
                         <div className="stat-value text-4xl font-bold text-gray-800 mt-2">
                             <CountUp start={0} end={stat.count} duration={2.5} separator="," />
                         </div>
-                        
-                        <div className="stat-desc text-sm text-gray-500 mt-2">{stat.desc}</div>
+                        <div className="stat-desc text-sm text-gray-500 mt-2 text-center">
+                            {stat.desc}
+                        </div>
                     </div>
                 ))}
             </div>

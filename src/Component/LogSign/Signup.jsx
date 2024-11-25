@@ -1,33 +1,41 @@
 
 
 const Signup = () => {
+
+  const handleSubmit = (e) =>{
+    e.preventDefault();
+    
+    const from = new FormData(e.target);
+    console.log(from);
+  };
+
     return (
         <div className="flex items-center justify-center my-16 ">
             <div class="card bg-base-200 w-full max-w-sm shrink-0 ">
-      <form class="card-body ">
+      <form onSubmit={handleSubmit} class="card-body ">
       <div class="form-control">
           <label class="label">
             <span class="label-text">Name</span>
           </label>
-          <input type="Name" placeholder="Name" class="input input-bordered" required />
+          <input name="name" type="text" placeholder="Name" class="input input-bordered" required />
         </div>
         <div class="form-control">
           <label class="label">
             <span class="label-text">Photo</span>
           </label>
-          <input type="url" placeholder="url" class="input input-bordered" required />
+          <input name="photo" type="text" placeholder="photo-url" class="input input-bordered" required />
         </div>
         <div class="form-control">
           <label class="label">
             <span class="label-text"> Email</span>
           </label>
-          <input type="email" placeholder="email" class="input input-bordered" required />
+          <input name="email" type="email" placeholder="email" class="input input-bordered" required />
         </div>
         <div class="form-control">
           <label class="label">
             <span class="label-text">Password</span>
           </label>
-          <input type="password" placeholder="password" class="input input-bordered" required />
+          <input name="password" type="password" placeholder="password" class="input input-bordered" required />
 
         </div>
         <div class="form-control mt-6">

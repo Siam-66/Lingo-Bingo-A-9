@@ -1,9 +1,10 @@
+import Japans from "../Japans/Japans";
 
 
 const StartLearning = () => {
     return (
         <div>
-            hiiiiiii
+            <Japans></Japans>
         </div>
     );
 };

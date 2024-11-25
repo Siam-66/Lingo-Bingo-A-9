@@ -1,552 +1,144 @@
+
+
 [
-    {
-      "id": "1",
-      "word": "ありがとう",
-      "pronunciation": "arigatou",
-      "meaning": "thank you",
-      "part_of_speech": "expression",
-      "difficulty": "easy",
-      "lesson_no": 1,
-      "when_to_say": "To express gratitude",
-      "example": "プレゼントをもらってありがとう。 (Purezento o moratte arigatou.)"
-    },
-    {
-      "id": "2",
-      "word": "こんにちは",
-      "pronunciation": "konnichiwa",
-      "meaning": "hello",
-      "part_of_speech": "greeting",
-      "difficulty": "easy",
-      "lesson_no": 1,
-      "when_to_say": "When greeting someone during the day",
-      "example": "こんにちは、元気ですか？ (Konnichiwa, genki desu ka?)"
-    },
-    {
-      "id": "3",
-      "word": "さようなら",
-      "pronunciation": "sayounara",
-      "meaning": "goodbye",
-      "part_of_speech": "expression",
-      "difficulty": "easy",
-      "lesson_no": 1,
-      "when_to_say": "When parting ways",
-      "example": "友達にさようならを言いました。 (Tomodachi ni sayounara o iimashita.)"
-    },
-    {
-      "id": "4",
-      "word": "水",
-      "pronunciation": "mizu",
-      "meaning": "water",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 2,
-      "when_to_say": "When referring to drinking water",
-      "example": "水を飲みたいです。 (Mizu o nomitai desu.)"
-    },
-    {
-      "id": "5",
-      "word": "行く",
-      "pronunciation": "iku",
-      "meaning": "to go",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 2,
-      "when_to_say": "To describe going somewhere",
-      "example": "学校に行く。 (Gakkou ni iku.)"
-    },
-    {
-      "id": "6",
-      "word": "来る",
-      "pronunciation": "kuru",
-      "meaning": "to come",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 2,
-      "when_to_say": "To describe arriving at a place",
-      "example": "明日友達が来ます。 (Ashita tomodachi ga kimasu.)"
-    },
-    {
-      "id": "7",
-      "word": "先生",
-      "pronunciation": "sensei",
-      "meaning": "teacher",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 3,
-      "when_to_say": "When addressing or referring to a teacher",
-      "example": "先生に質問する。 (Sensei ni shitsumon suru.)"
-    },
-    {
-      "id": "8",
-      "word": "友達",
-      "pronunciation": "tomodachi",
-      "meaning": "friend",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 3,
-      "when_to_say": "When talking about a friend",
-      "example": "友達と遊びます。 (Tomodachi to asobimasu.)"
-    },
-    {
-      "id": "9",
-      "word": "楽しい",
-      "pronunciation": "tanoshii",
-      "meaning": "fun",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 3,
-      "when_to_say": "To describe enjoyable activities",
-      "example": "旅行は楽しいです。 (Ryokou wa tanoshii desu.)"
-    },
-    {
-      "id": "10",
-      "word": "忙しい",
-      "pronunciation": "isogashii",
-      "meaning": "busy",
-      "part_of_speech": "adjective",
-      "difficulty": "medium",
-      "lesson_no": 4,
-      "when_to_say": "To describe a busy schedule",
-      "example": "今日は忙しいです。 (Kyou wa isogashii desu.)"
-    },
-    {
-      "id": "11",
-      "word": "静か",
-      "pronunciation": "shizuka",
-      "meaning": "quiet",
-      "part_of_speech": "adjective",
-      "difficulty": "medium",
-      "lesson_no": 4,
-      "when_to_say": "To describe a quiet place",
-      "example": "図書館は静かです。 (Toshokan wa shizuka desu.)"
-    },
-    {
-      "id": "12",
-      "word": "新しい",
-      "pronunciation": "atarashii",
-      "meaning": "new",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 5,
-      "when_to_say": "To describe something new",
-      "example": "新しい本を買いました。 (Atarashii hon o kaimashita.)"
-    },
-    {
-      "id": "13",
-      "word": "古い",
-      "pronunciation": "furui",
-      "meaning": "old",
-      "part_of_speech": "adjective",
-      "difficulty": "medium",
-      "lesson_no": 5,
-      "when_to_say": "To describe something old",
-      "example": "この家は古いです。 (Kono ie wa furui desu.)"
-    },
-    {
-      "id": "14",
-      "word": "食べる",
-      "pronunciation": "taberu",
-      "meaning": "to eat",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 6,
-      "when_to_say": "To describe eating",
-      "example": "昼ごはんを食べます。 (Hirugohan o tabemasu.)"
-    },
-    {
-      "id": "15",
-      "word": "飲む",
-      "pronunciation": "nomu",
-      "meaning": "to drink",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 6,
-      "when_to_say": "When referring to drinking",
-      "example": "お茶を飲みます。 (Ocha o nomimasu.)"
-    },
-    {
-      "id": "16",
-      "word": "見る",
-      "pronunciation": "miru",
-      "meaning": "to see",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 7,
-      "when_to_say": "To describe observing or watching",
-      "example": "映画を見る。 (Eiga o miru.)"
-    },
-    {
-      "id": "17",
-      "word": "聞く",
-      "pronunciation": "kiku",
-      "meaning": "to listen",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 7,
-      "when_to_say": "To describe listening or hearing",
-      "example": "音楽を聞きます。 (Ongaku o kikimasu.)"
-    },
-    {
-      "id": "18",
-      "word": "話す",
-      "pronunciation": "hanasu",
-      "meaning": "to speak",
-      "part_of_speech": "verb",
-      "difficulty": "medium",
-      "lesson_no": 8,
-      "when_to_say": "To describe speaking or talking",
-      "example": "日本語を話します。 (Nihongo o hanashimasu.)"
-    },
-    {
-      "id": "19",
-      "word": "本",
-      "pronunciation": "hon",
-      "meaning": "book",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 8,
-      "when_to_say": "When referring to books",
-      "example": "図書館で本を読みます。 (Toshokan de hon o yomimasu.)"
-    },
-    {
-      "id": "20",
-      "word": "読む",
-      "pronunciation": "yomu",
-      "meaning": "to read",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 8,
-      "when_to_say": "To describe reading",
-      "example": "新聞を読みます。 (Shinbun o yomimasu.)"
-    },
-    {
-      "id": "21",
-      "word": "書く",
-      "pronunciation": "kaku",
-      "meaning": "to write",
-      "part_of_speech": "verb",
-      "difficulty": "easy",
-      "lesson_no": 9,
-      "when_to_say": "To describe writing",
-      "example": "手紙を書く。 (Tegami o kaku.)"
-    },
-    {
-      "id": "22",
-      "word": "青い",
-      "pronunciation": "aoi",
-      "meaning": "blue",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 9,
-      "when_to_say": "When describing something blue",
-      "example": "青い空がきれいです。 (Aoi sora ga kirei desu.)"
-    },
-    {
-      "id": "23",
-      "word": "赤い",
-      "pronunciation": "akai",
-      "meaning": "red",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 9,
-      "when_to_say": "When describing something red",
-      "example": "赤い車を見ました。 (Akai kuruma o mimashita.)"
-    },
-    {
-      "id": "24",
-      "word": "黒い",
-      "pronunciation": "kuroi",
-      "meaning": "black",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 9,
-      "when_to_say": "When describing something black",
-      "example": "黒い猫がいます。 (Kuroi neko ga imasu.)"
-    },
-    {
-      "id": "25",
-      "word": "白い",
-      "pronunciation": "shiroi",
-      "meaning": "white",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 9,
-      "when_to_say": "When describing something white",
-      "example": "白い花が咲いています。 (Shiroi hana ga saiteimasu.)"
-    },
-    {
-      "id": "26",
-      "word": "高い",
-      "pronunciation": "takai",
-      "meaning": "tall/expensive",
-      "part_of_speech": "adjective",
-      "difficulty": "medium",
-      "lesson_no": 10,
-      "when_to_say": "When describing height or price",
-      "example": "このビルは高いです。 (Kono biru wa takai desu.)"
-    },
-    {
-      "id": "27",
-      "word": "安い",
-      "pronunciation": "yasui",
-      "meaning": "cheap",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 10,
-      "when_to_say": "When describing inexpensive things",
-      "example": "この店は安いです。 (Kono mise wa yasui desu.)"
-    },
-    {
-      "id": "28",
-      "word": "暑い",
-      "pronunciation": "atsui",
-      "meaning": "hot (weather)",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 10,
-      "when_to_say": "When describing hot weather",
-      "example": "夏は暑いです。 (Natsu wa atsui desu.)"
-    },
-    {
-      "id": "29",
-      "word": "寒い",
-      "pronunciation": "samui",
-      "meaning": "cold (weather)",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 10,
-      "when_to_say": "When describing cold weather",
-      "example": "冬は寒いです。 (Fuyu wa samui desu.)"
-    },
-    {
-      "id": "30",
-      "word": "猫",
-      "pronunciation": "neko",
-      "meaning": "cat",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 4,
-      "when_to_say": "When talking about cats",
-      "example": "かわいい猫がいます。 (Kawaii neko ga imasu.)"
-    },
-    {
-      "id": "31",
-      "word": "犬",
-      "pronunciation": "inu",
-      "meaning": "dog",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 4,
-      "when_to_say": "When talking about dogs",
-      "example": "犬と遊びます。 (Inu to asobimasu.)"
-    },
-    {
-      "id": "32",
-      "word": "雨",
-      "pronunciation": "ame",
-      "meaning": "rain",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 3,
-      "when_to_say": "When describing rainy weather",
-      "example": "今日は雨です。 (Kyou wa ame desu.)"
-    },
-    {
-      "id": "33",
-      "word": "雪",
-      "pronunciation": "yuki",
-      "meaning": "snow",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 3,
-      "when_to_say": "When describing snowy weather",
-      "example": "外で雪が降っています。 (Soto de yuki ga futteimasu.)"
-    },
-    {
-      "id": "34",
-      "word": "電車",
-      "pronunciation": "densha",
-      "meaning": "train",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 5,
-      "when_to_say": "When referring to a train",
-      "example": "電車で通勤します。 (Densha de tsuukin shimasu.)"
-    },
-    {
-      "id": "35",
-      "word": "車",
-      "pronunciation": "kuruma",
-      "meaning": "car",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 5,
-      "when_to_say": "When talking about cars",
-      "example": "車を運転します。 (Kuruma o untenshimasu.)"
-    },
-    {
-      "id": "36",
-      "word": "時間",
-      "pronunciation": "jikan",
-      "meaning": "time",
-      "part_of_speech": "noun",
-      "difficulty": "medium",
-      "lesson_no": 7,
-      "when_to_say": "When referring to time",
-      "example": "時間が足りません。 (Jikan ga tarimasen.)"
-    },
-    {
-      "id": "37",
-      "word": "学校",
-      "pronunciation": "gakkou",
-      "meaning": "school",
-      "part_of_speech": "noun",
-      "difficulty": "easy",
-      "lesson_no": 2,
-      "when_to_say": "When referring to school",
-      "example": "学校に行きます。 (Gakkou ni ikimasu.)"
-    },
-    {
-      "id": "38",
-      "word": "おいしい",
-      "pronunciation": "oishii",
-      "meaning": "delicious",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 6,
-      "when_to_say": "When describing tasty food",
-      "example": "この寿司はおいしいです。 (Kono sushi wa oishii desu.)"
-    },
-    {
-      "id": "39",
-      "word": "痛い",
-      "pronunciation": "itai",
-      "meaning": "painful",
-      "part_of_speech": "adjective",
-      "difficulty": "medium",
-      "lesson_no": 6,
-      "when_to_say": "When describing pain",
-      "example": "頭が痛いです。 (Atama ga itai desu.)"
-    },
-    {
-      "id": "40",
-      "word": "面白い",
-      "pronunciation": "omoshiroi",
-      "meaning": "interesting/funny",
-      "part_of_speech": "adjective",
-      "difficulty": "medium",
-      "lesson_no": 8,
-      "when_to_say": "When describing something fun or interesting",
-      "example": "この本は面白いです。 (Kono hon wa omoshiroi desu.)"
-    },
-    {
-      "id": "41",
-      "word": "大きい",
-      "pronunciation": "ookii",
-      "meaning": "big",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 4,
-      "when_to_say": "When describing size",
-      "example": "大きい家が好きです。 (Ookii ie ga suki desu.)"
-    },
-    {
-      "id": "42",
-      "word": "大きい",
-      "pronunciation": "ookii",
-      "meaning": "big",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 4,
-      "when_to_say": "When describing size",
-      "example": "大きい車があります。 (Ookii kuruma ga arimasu.)"
-    },
-    {
-      "id": "43",
-      "word": "小さい",
-      "pronunciation": "chiisai",
-      "meaning": "small",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 4,
-      "when_to_say": "When describing size",
-      "example": "小さい犬を飼っています。 (Chiisai inu o katteimasu.)"
-    },
-    {
-      "id": "44",
-      "word": "早い",
-      "pronunciation": "hayai",
-      "meaning": "fast/early",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 7,
-      "when_to_say": "When describing speed or time",
-      "example": "彼は早いです。 (Kare wa hayai desu.)"
-    },
-    {
-      "id": "45",
-      "word": "遅い",
-      "pronunciation": "osoi",
-      "meaning": "slow/late",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 7,
-      "when_to_say": "When describing slowness or lateness",
-      "example": "バスが遅いです。 (Basu ga osoi desu.)"
-    },
-    {
-      "id": "46",
-      "word": "好き",
-      "pronunciation": "suki",
-      "meaning": "like",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 2,
-      "when_to_say": "When expressing likes",
-      "example": "私は音楽が好きです。 (Watashi wa ongaku ga suki desu.)"
-    },
-    {
-      "id": "47",
-      "word": "嫌い",
-      "pronunciation": "kirai",
-      "meaning": "dislike",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 2,
-      "when_to_say": "When expressing dislikes",
-      "example": "私は野菜が嫌いです。 (Watashi wa yasai ga kirai desu.)"
-    },
-    {
-      "id": "48",
-      "word": "新しい",
-      "pronunciation": "atarashii",
-      "meaning": "new",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 8,
-      "when_to_say": "When describing something new",
-      "example": "新しい本を買いました。 (Atarashii hon o kaimashita.)"
-    },
-    {
-      "id": "49",
-      "word": "古い",
-      "pronunciation": "furui",
-      "meaning": "old",
-      "part_of_speech": "adjective",
-      "difficulty": "easy",
-      "lesson_no": 8,
-      "when_to_say": "When describing something old",
-      "example": "古い車を持っています。 (Furui kuruma o motteimasu.)"
-    },
-    {
-      "id": "50",
-      "word": "楽しい",
-      "pronunciation": "tanoshii",
-      "meaning": "fun",
-      "part_of_speech": "adjective",
-      "difficulty": "medium",
-      "lesson_no": 8,
-      "when_to_say": "When describing fun experiences",
-      "example": "楽しい旅行をしました。 (Tanoshii ryokou o shimashita.)"
-    }
-  ]
+  {
+    "lesson_no": 1,
+    "data": [
+      {
+        "japanId": "1",
+        "word": "ありがとう",
+        "pronunciation": "arigatou",
+        "meaning": "thank you",
+        "part_of_speech": "expression",
+        "difficulty": "easy",
+        "when_to_say": "To express gratitude",
+        "example": "プレゼントをもらってありがとう。 (Purezento o moratte arigatou.)"
+      },
+      {
+        "japanId": "2",
+        "word": "こんにちは",
+        "pronunciation": "konnichiwa",
+        "meaning": "hello",
+        "part_of_speech": "greeting",
+        "difficulty": "easy",
+        "when_to_say": "When greeting someone during the day",
+        "example": "こんにちは、元気ですか？ (Konnichiwa, genki desu ka?)"
+      },
+      {
+        "japanId": "3",
+        "word": "さようなら",
+        "pronunciation": "sayounara",
+        "meaning": "goodbye",
+        "part_of_speech": "expression",
+        "difficulty": "easy",
+        "when_to_say": "When parting ways",
+        "example": "友達にさようならを言いました。 (Tomodachi ni sayounara o iimashita.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 2,
+    "data": [
+      {
+        "japanId": "4",
+        "word": "水",
+        "pronunciation": "mizu",
+        "meaning": "water",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to drinking water",
+        "example": "水を飲みたいです。 (Mizu o nomitai desu.)"
+      },
+      {
+        "japanId": "5",
+        "word": "行く",
+        "pronunciation": "iku",
+        "meaning": "to go",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "To describe going somewhere",
+        "example": "学校に行く。 (Gakkou ni iku.)"
+      },
+      {
+        "japanId": "6",
+        "word": "来る",
+        "pronunciation": "kuru",
+        "meaning": "to come",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "To describe arriving at a place",
+        "example": "明日友達が来ます。 (Ashita tomodachi ga kimasu.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 3,
+    "data": [
+      {
+        "japanId": "7",
+        "word": "先生",
+        "pronunciation": "sensei",
+        "meaning": "teacher",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When addressing or referring to a teacher",
+        "example": "先生に質問する。 (Sensei ni shitsumon suru.)"
+      },
+      {
+        "japanId": "8",
+        "word": "友達",
+        "pronunciation": "tomodachi",
+        "meaning": "friend",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When talking about a friend",
+        "example": "友達と遊びます。 (Tomodachi to asobimasu.)"
+      },
+      {
+        "japanId": "9",
+        "word": "楽しい",
+        "pronunciation": "tanoshii",
+        "meaning": "fun",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "To describe enjoyable activities",
+        "example": "旅行は楽しいです。 (Ryokou wa tanoshii desu.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 4,
+    "data": [
+      {
+        "japanId": "7",
+        "word": "先生",
+        "pronunciation": "sensei",
+        "meaning": "teacher",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When addressing or referring to a teacher",
+        "example": "先生に質問する。 (Sensei ni shitsumon suru.)"
+      },
+      {
+        "japanId": "8",
+        "word": "友達",
+        "pronunciation": "tomodachi",
+        "meaning": "friend",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When talking about a friend",
+        "example": "友達と遊びます。 (Tomodachi to asobimasu.)"
+      },
+      {
+        "japanId": "9",
+        "word": "楽しい",
+        "pronunciation": "tanoshii",
+        "meaning": "fun",
+        "part_of_speech": "adjective",
+        "difficulty": "easy",
+        "when_to_say": "To describe enjoyable activities",
+        "example": "旅行は楽しいです。 (Ryokou wa tanoshii desu.)"
+      }
+    ]
+  }
+]

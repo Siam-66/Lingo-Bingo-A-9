@@ -15,6 +15,7 @@ import Aboutus from './Component/Pages/Aboutus';
 import Login from './Component/LogSign/Login';
 import Signup from './Component/LogSign/Signup';
 import AuthProvider from './Provider/AuthProvider';
+import JapanLesson from './Component/Japans/JapanLesson';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home> ,
+      },
+      {
+        path: "japans/:lesson_no",
+        element: <JapanLesson></JapanLesson> ,
+        loader: () => fetch('/lingoBingo.json')
       },
       {
         path: "startLearning",
