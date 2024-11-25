@@ -1,8 +1,9 @@
+import Image1 from "/assets/4Japanese Vocabulary.png";
+import Image2 from "/assets/2Japanese Vocabulary.png";
 
 const Aboutus = () => {
     return (
         <div className="min-h-screen bg-gray-100 py-10 px-5 md:px-20 lg:px-40">
-        {/* Title Section */}
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-sky-600 mb-5">
             About Lingo Bingo!
@@ -12,13 +13,13 @@ const Aboutus = () => {
           </p>
         </div>
   
-        {/* Content Section */}
+
         <div className="mt-10 space-y-10">
-          {/* First Section */}
+
           <div className="flex flex-col md:flex-row items-center gap-5">
             <div className="md:w-1/2">
               <img
-                src="/public/assets/4Japanese Vocabulary.png"
+                src={Image1}
                 alt="Learning Japanese Vocabulary"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -41,7 +42,7 @@ const Aboutus = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-5">
             <div className="md:w-1/2">
               <img
-                src="/public/assets/2Japanese Vocabulary.png"
+                src={Image2}
                 alt="Interactive Learning Features"
                 className="rounded-lg shadow-lg w-full"
               />

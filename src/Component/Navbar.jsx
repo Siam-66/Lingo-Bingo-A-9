@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import Image1 from "/assets/Lingo Bingo.png";
 
 
 const Navbar = () => {
@@ -82,7 +83,7 @@ const Navbar = () => {
           <div className="flex items-center justify-start">
             
             <NavLink to="/" className=" flex items-center justify-start  cursor-pointer">
-            <img className="w-20" src="/public/assets/Lingo Bingo.png" alt="" />
+            <img className="w-20" src={Image1} alt="" />
             <div className="font-semibold md:text-3xl text-lg">
             Lingo Bingo
             </div>

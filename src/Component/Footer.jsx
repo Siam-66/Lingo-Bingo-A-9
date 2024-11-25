@@ -1,4 +1,4 @@
-
+import Image1 from "/assets/Lingo Bingo.png";
 
 const Footer = () => {
     return (
@@ -6,7 +6,7 @@ const Footer = () => {
             <footer className="footer bg-base-200 text-base-content py-3 px-10  flex justify-around items-center">
   <div >
       <aside>
-    <img className="w-40 md:ml-6" src="/public/assets/Lingo Bingo.png" alt="" />
+    <img className="w-40 md:ml-6" src={Image1} alt="" />
     <p className="text-center max-sm:text-xs">
     Lingo Bingo Ltd.
       <br />

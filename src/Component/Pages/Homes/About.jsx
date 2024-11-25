@@ -1,4 +1,4 @@
-
+import 'animate.css'
 
 const About = () => {
     return (
@@ -9,7 +9,7 @@ const About = () => {
      
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center px-6 md:px-12 lg:px-24 gap-12 mb-16">
       
-            <div className="lg:w-1/2 text-lg md:text-xl text-gray-700">
+            <div className="lg:w-1/2 text-lg md:text-xl text-gray-700 animate__animated animate__backInLeft">
                 <p>
                     Lingo Bingo is a fun and interactive app designed to help users learn Japanese vocabulary. 
                     We make learning easy and engaging. Simply log in, powered by Firebase, and start exploring new words. 
@@ -17,7 +17,7 @@ const About = () => {
                 </p>
             </div>
      
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 animate__animated animate__backInRight">
                 <img 
                     className="w-full max-w-lg mx-auto rounded-lg shadow-lg" 
                     src="/assets/1Japanese Vocabulary .png" 
@@ -29,7 +29,7 @@ const About = () => {
    
         <div className="flex flex-col lg:flex-row items-center justify-center px-6 md:px-12 lg:px-24 gap-12">
     
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 animate__animated animate__backInLeft">
                 <img 
                     className="w-full max-w-lg mx-auto rounded-lg shadow-lg" 
                     src="/assets/3Japanese Vocabulary.png" 
@@ -37,7 +37,7 @@ const About = () => {
                 />
             </div>
    
-            <div className="lg:w-1/2 text-lg md:text-xl text-gray-700">
+            <div className="lg:w-1/2 text-lg md:text-xl text-gray-700 animate__animated animate__backInRight">
                 <p>
                     Our app is designed to keep you motivated and excited about learning. 
                     With interactive features and personalized content, you can track your progress and 
