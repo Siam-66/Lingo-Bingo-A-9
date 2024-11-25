@@ -1,8 +1,8 @@
-
-
 [
   {
     "lesson_no": 1,
+    "image": "https://i.ibb.co.com/xYFHPrm/1jp-card.jpg",
+    "descriptions":"Learn essential greetings like ありがとう (arigatou - thank you) and こんにちは (konnichiwa - hello) to start conversations politely.",
     "data": [
       {
         "japanId": "1",
@@ -33,14 +33,86 @@
         "difficulty": "easy",
         "when_to_say": "When parting ways",
         "example": "友達にさようならを言いました。 (Tomodachi ni sayounara o iimashita.)"
+      },
+      {
+        "japanId": "4",
+        "word": "おはよう",
+        "pronunciation": "ohayou",
+        "meaning": "good morning",
+        "part_of_speech": "greeting",
+        "difficulty": "easy",
+        "when_to_say": "When greeting someone in the morning",
+        "example": "おはようございます。 (Ohayou gozaimasu.)"
+      },
+      {
+        "japanId": "5",
+        "word": "こんばんは",
+        "pronunciation": "konbanwa",
+        "meaning": "good evening",
+        "part_of_speech": "greeting",
+        "difficulty": "easy",
+        "when_to_say": "When greeting someone in the evening",
+        "example": "こんばんは、いかがお過ごしですか？ (Konbanwa, ikaga osugoshi desu ka?)"
+      },
+      {
+        "japanId": "6",
+        "word": "すみません",
+        "pronunciation": "sumimasen",
+        "meaning": "excuse me",
+        "part_of_speech": "expression",
+        "difficulty": "easy",
+        "when_to_say": "To get someone's attention or apologize",
+        "example": "道を聞くときは、すみませんを使います。 (Michi o kiku toki wa, sumimasen o tsukaimasu.)"
+      },
+      {
+        "japanId": "7",
+        "word": "はい",
+        "pronunciation": "hai",
+        "meaning": "yes",
+        "part_of_speech": "expression",
+        "difficulty": "easy",
+        "when_to_say": "To agree or affirm",
+        "example": "質問に対してはいと答えます。 (Shitsumon ni taishite hai to kotaemasu.)"
+      },
+      {
+        "japanId": "8",
+        "word": "いいえ",
+        "pronunciation": "iie",
+        "meaning": "no",
+        "part_of_speech": "expression",
+        "difficulty": "easy",
+        "when_to_say": "To disagree or negate",
+        "example": "それはいいえです。 (Sore wa iie desu.)"
+      },
+      {
+        "japanId": "9",
+        "word": "おねがい",
+        "pronunciation": "onegai",
+        "meaning": "please",
+        "part_of_speech": "expression",
+        "difficulty": "easy",
+        "when_to_say": "When requesting something",
+        "example": "手伝ってください、おねがいします。 (Tetsudatte kudasai, onegaishimasu.)"
+      },
+      {
+        "japanId": "10",
+        "word": "なまえ",
+        "pronunciation": "namae",
+        "meaning": "name",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to someone's name",
+        "example": "あなたの名前は何ですか？ (Anata no namae wa nan desu ka?)"
       }
     ]
   },
   {
     "lesson_no": 2,
+    "image": "https://i.ibb.co.com/c6xqM85/2jp-card-jpg.jpg",
+    "descriptions":"Discover everyday verbs such as 行く (iku - to go) and 食べる (taberu - to eat) for describing daily actions.",
     "data": [
       {
-        "japanId": "4",
+        "japanId": "11",
         "word": "水",
         "pronunciation": "mizu",
         "meaning": "water",
@@ -50,7 +122,7 @@
         "example": "水を飲みたいです。 (Mizu o nomitai desu.)"
       },
       {
-        "japanId": "5",
+        "japanId": "12",
         "word": "行く",
         "pronunciation": "iku",
         "meaning": "to go",
@@ -60,7 +132,7 @@
         "example": "学校に行く。 (Gakkou ni iku.)"
       },
       {
-        "japanId": "6",
+        "japanId": "13",
         "word": "来る",
         "pronunciation": "kuru",
         "meaning": "to come",
@@ -68,76 +140,932 @@
         "difficulty": "easy",
         "when_to_say": "To describe arriving at a place",
         "example": "明日友達が来ます。 (Ashita tomodachi ga kimasu.)"
+      },
+      {
+        "japanId": "14",
+        "word": "食べる",
+        "pronunciation": "taberu",
+        "meaning": "to eat",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When talking about eating food",
+        "example": "寿司を食べるのが好きです。 (Sushi o taberu no ga suki desu.)"
+      },
+      {
+        "japanId": "15",
+        "word": "飲む",
+        "pronunciation": "nomu",
+        "meaning": "to drink",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When talking about drinking",
+        "example": "コーヒーを飲む。 (Koohii o nomu.)"
+      },
+      {
+        "japanId": "16",
+        "word": "見る",
+        "pronunciation": "miru",
+        "meaning": "to see",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to watching or looking at something",
+        "example": "映画を見る。 (Eiga o miru.)"
+      },
+      {
+        "japanId": "17",
+        "word": "聞く",
+        "pronunciation": "kiku",
+        "meaning": "to listen",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to listening to something",
+        "example": "音楽を聞く。 (Ongaku o kiku.)"
+      },
+      {
+        "japanId": "18",
+        "word": "読む",
+        "pronunciation": "yomu",
+        "meaning": "to read",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to reading",
+        "example": "本を読むのが好きです。 (Hon o yomu no ga suki desu.)"
+      },
+      {
+        "japanId": "19",
+        "word": "書く",
+        "pronunciation": "kaku",
+        "meaning": "to write",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to writing",
+        "example": "手紙を書く。 (Tegami o kaku.)"
+      },
+      {
+        "japanId": "20",
+        "word": "勉強する",
+        "pronunciation": "benkyou suru",
+        "meaning": "to study",
+        "part_of_speech": "verb",
+        "difficulty": "easy",
+        "when_to_say": "When referring to studying",
+        "example": "日本語を勉強する。 (Nihongo o benkyou suru.)"
       }
     ]
   },
   {
     "lesson_no": 3,
+    "image": "https://i.ibb.co.com/3TWkbC1/3jp-card-jpg.jpg",
+    "descriptions":"Explore words like 友達 (tomodachi - friend) and 猫 (neko - cat) to talk about relationships and pets.",
     "data": [
       {
-        "japanId": "7",
-        "word": "先生",
-        "pronunciation": "sensei",
-        "meaning": "teacher",
-        "part_of_speech": "noun",
-        "difficulty": "easy",
-        "when_to_say": "When addressing or referring to a teacher",
-        "example": "先生に質問する。 (Sensei ni shitsumon suru.)"
-      },
-      {
-        "japanId": "8",
+        "japanId": "21",
         "word": "友達",
         "pronunciation": "tomodachi",
         "meaning": "friend",
         "part_of_speech": "noun",
         "difficulty": "easy",
-        "when_to_say": "When talking about a friend",
-        "example": "友達と遊びます。 (Tomodachi to asobimasu.)"
+        "when_to_say": "When referring to a friend",
+        "example": "友達と遊びに行く。 (Tomodachi to asobi ni iku.)"
       },
       {
-        "japanId": "9",
-        "word": "楽しい",
-        "pronunciation": "tanoshii",
-        "meaning": "fun",
-        "part_of_speech": "adjective",
+        "japanId": "22",
+        "word": "先生",
+        "pronunciation": "sensei",
+        "meaning": "teacher",
+        "part_of_speech": "noun",
         "difficulty": "easy",
-        "when_to_say": "To describe enjoyable activities",
-        "example": "旅行は楽しいです。 (Ryokou wa tanoshii desu.)"
+        "when_to_say": "When referring to a teacher",
+        "example": "先生に質問をする。 (Sensei ni shitsumon o suru.)"
+      },
+      {
+        "japanId": "23",
+        "word": "学校",
+        "pronunciation": "gakkou",
+        "meaning": "school",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to a school",
+        "example": "毎日学校に行く。 (Mainichi gakkou ni iku.)"
+      },
+      {
+        "japanId": "24",
+        "word": "猫",
+        "pronunciation": "neko",
+        "meaning": "cat",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to a cat",
+        "example": "猫が好きです。 (Neko ga suki desu.)"
+      },
+      {
+        "japanId": "25",
+        "word": "犬",
+        "pronunciation": "inu",
+        "meaning": "dog",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to a dog",
+        "example": "犬を散歩に連れて行く。 (Inu o sanpo ni tsurete iku.)"
+      },
+      {
+        "japanId": "26",
+        "word": "車",
+        "pronunciation": "kuruma",
+        "meaning": "car",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to a car",
+        "example": "車を運転する。 (Kuruma o untensuru.)"
+      },
+      {
+        "japanId": "27",
+        "word": "本",
+        "pronunciation": "hon",
+        "meaning": "book",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to a book",
+        "example": "図書館で本を借りる。 (Toshokan de hon o kariru.)"
+      },
+      {
+        "japanId": "28",
+        "word": "食べ物",
+        "pronunciation": "tabemono",
+        "meaning": "food",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to food",
+        "example": "美味しい食べ物がたくさんある。 (Oishii tabemono ga takusan aru.)"
+      },
+      {
+        "japanId": "29",
+        "word": "飲み物",
+        "pronunciation": "nomimono",
+        "meaning": "drink",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to drinks",
+        "example": "冷たい飲み物をください。 (Tsumetai nomimono o kudasai.)"
+      },
+      {
+        "japanId": "30",
+        "word": "家",
+        "pronunciation": "ie",
+        "meaning": "house",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to a house",
+        "example": "家に帰る。 (Ie ni kaeru.)"
       }
     ]
   },
   {
     "lesson_no": 4,
+    "image": "https://i.ibb.co.com/pjX41gh/4jp-card-jpg.jpg",
+    "descriptions":"Understand terms like 時間 (jikan - time) and 天気 (tenki - weather) to discuss schedules and conditions.",
     "data": [
       {
-        "japanId": "7",
-        "word": "先生",
-        "pronunciation": "sensei",
-        "meaning": "teacher",
+        "japanId": "31",
+        "word": "時間",
+        "pronunciation": "jikan",
+        "meaning": "time",
         "part_of_speech": "noun",
         "difficulty": "easy",
-        "when_to_say": "When addressing or referring to a teacher",
-        "example": "先生に質問する。 (Sensei ni shitsumon suru.)"
+        "when_to_say": "When referring to time",
+        "example": "時間がありません。 (Jikan ga arimasen.)"
       },
       {
-        "japanId": "8",
-        "word": "友達",
-        "pronunciation": "tomodachi",
-        "meaning": "friend",
+        "japanId": "32",
+        "word": "今日",
+        "pronunciation": "kyou",
+        "meaning": "today",
         "part_of_speech": "noun",
         "difficulty": "easy",
-        "when_to_say": "When talking about a friend",
-        "example": "友達と遊びます。 (Tomodachi to asobimasu.)"
+        "when_to_say": "When referring to the current day",
+        "example": "今日は忙しい。 (Kyou wa isogashii.)"
       },
       {
-        "japanId": "9",
-        "word": "楽しい",
-        "pronunciation": "tanoshii",
-        "meaning": "fun",
-        "part_of_speech": "adjective",
+        "japanId": "33",
+        "word": "明日",
+        "pronunciation": "ashita",
+        "meaning": "tomorrow",
+        "part_of_speech": "noun",
         "difficulty": "easy",
-        "when_to_say": "To describe enjoyable activities",
-        "example": "旅行は楽しいです。 (Ryokou wa tanoshii desu.)"
+        "when_to_say": "When referring to the next day",
+        "example": "明日は休みです。 (Ashita wa yasumi desu.)"
+      },
+      {
+        "japanId": "34",
+        "word": "昨日",
+        "pronunciation": "kinou",
+        "meaning": "yesterday",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to the previous day",
+        "example": "昨日は雨でした。 (Kinou wa ame deshita.)"
+      },
+      {
+        "japanId": "35",
+        "word": "天気",
+        "pronunciation": "tenki",
+        "meaning": "weather",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to the weather",
+        "example": "今日の天気はどうですか？ (Kyou no tenki wa dou desu ka?)"
+      },
+      {
+        "japanId": "36",
+        "word": "晴れ",
+        "pronunciation": "hare",
+        "meaning": "sunny",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When describing a sunny day",
+        "example": "明日は晴れです。 (Ashita wa hare desu.)"
+      },
+      {
+        "japanId": "37",
+        "word": "雨",
+        "pronunciation": "ame",
+        "meaning": "rain",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When describing rainy weather",
+        "example": "今日は雨が降っています。 (Kyou wa ame ga futteimasu.)"
+      },
+      {
+        "japanId": "38",
+        "word": "雪",
+        "pronunciation": "yuki",
+        "meaning": "snow",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When describing snowy weather",
+        "example": "明日は雪が降るでしょう。 (Ashita wa yuki ga furu deshou.)"
+      },
+      {
+        "japanId": "39",
+        "word": "風",
+        "pronunciation": "kaze",
+        "meaning": "wind",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When describing windy weather",
+        "example": "今日は風が強いです。 (Kyou wa kaze ga tsuyoi desu.)"
+      },
+      {
+        "japanId": "40",
+        "word": "空",
+        "pronunciation": "sora",
+        "meaning": "sky",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "when_to_say": "When referring to the sky",
+        "example": "空が青い。 (Sora ga aoi.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 5,
+    "image": "https://i.ibb.co.com/rHwHsms/5jp-card.jpg",
+    "descriptions":"Learn transportation vocabulary such as 駅 (eki - station) and 電車 (densha - train) for travel discussions.",
+    "data": [
+      {
+        "japanId": "41",
+        "word": "駅",
+        "pronunciation": "eki",
+        "meaning": "station",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to a train station",
+        "example": "駅に着きました。 (Eki ni tsukimashita.)"
+      },
+      {
+        "japanId": "42",
+        "word": "電車",
+        "pronunciation": "densha",
+        "meaning": "train",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to a train",
+        "example": "電車に乗る。 (Densha ni noru.)"
+      },
+      {
+        "japanId": "43",
+        "word": "飛行機",
+        "pronunciation": "hikouki",
+        "meaning": "airplane",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to an airplane",
+        "example": "飛行機で旅行する。 (Hikouki de ryokou suru.)"
+      },
+      {
+        "japanId": "44",
+        "word": "船",
+        "pronunciation": "fune",
+        "meaning": "boat",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to a boat",
+        "example": "船で海を渡る。 (Fune de umi o wataru.)"
+      },
+      {
+        "japanId": "45",
+        "word": "自転車",
+        "pronunciation": "jitensha",
+        "meaning": "bicycle",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to a bicycle",
+        "example": "自転車で公園に行く。 (Jitensha de kouen ni iku.)"
+      },
+      {
+        "japanId": "46",
+        "word": "歩く",
+        "pronunciation": "aruku",
+        "meaning": "to walk",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to walking",
+        "example": "散歩をするために歩く。 (Sanpo o suru tame ni aruku.)"
+      },
+      {
+        "japanId": "47",
+        "word": "走る",
+        "pronunciation": "hashiru",
+        "meaning": "to run",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to running",
+        "example": "朝、走るのが好きです。 (Asa, hashiru no ga suki desu.)"
+      },
+      {
+        "japanId": "48",
+        "word": "泳ぐ",
+        "pronunciation": "oyogu",
+        "meaning": "to swim",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to swimming",
+        "example": "プールで泳ぐ。 (Puuru de oyogu.)"
+      },
+      {
+        "japanId": "49",
+        "word": "飛ぶ",
+        "pronunciation": "tobu",
+        "meaning": "to fly",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to flying",
+        "example": "鳥が空を飛ぶ。 (Tori ga sora o tobu.)"
+      },
+      {
+        "japanId": "50",
+        "word": "運転する",
+        "pronunciation": "untensuru",
+        "meaning": "to drive",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to driving a vehicle",
+        "example": "車を運転するのが好きです。 (Kuruma o untensuru no ga suki desu.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 6,
+    "image": "https://i.ibb.co.com/2SHmRtT/6jp-card.jpg",
+        "descriptions":"Focus on work and study words like 勉強 (benkyou - study) and 仕事 (shigoto - work) for professional contexts.",
+    "data": [
+      {
+        "japanId": "51",
+        "word": "勉強",
+        "pronunciation": "benkyou",
+        "meaning": "study",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to studying",
+        "example": "日本語の勉強をする。 (Nihongo no benkyou o suru.)"
+      },
+      {
+        "japanId": "52",
+        "word": "仕事",
+        "pronunciation": "shigoto",
+        "meaning": "work",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to work or a job",
+        "example": "仕事が忙しい。 (Shigoto ga isogashii.)"
+      },
+      {
+        "japanId": "53",
+        "word": "休み",
+        "pronunciation": "yasumi",
+        "meaning": "holiday",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "when_to_say": "When referring to a break or holiday",
+        "example": "次の休みに旅行する。 (Tsugi no yasumi ni ryokou suru.)"
+      },
+      {
+        "japanId": "54",
+        "word": "会う",
+        "pronunciation": "au",
+        "meaning": "to meet",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to meeting someone",
+        "example": "友達に会う。 (Tomodachi ni au.)"
+      },
+      {
+        "japanId": "55",
+        "word": "売る",
+        "pronunciation": "uru",
+        "meaning": "to sell",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to selling something",
+        "example": "古い本を売る。 (Furui hon o uru.)"
+      },
+      {
+        "japanId": "56",
+        "word": "買う",
+        "pronunciation": "kau",
+        "meaning": "to buy",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to purchasing something",
+        "example": "新しい靴を買う。 (Atarashii kutsu o kau.)"
+      },
+      {
+        "japanId": "57",
+        "word": "作る",
+        "pronunciation": "tsukuru",
+        "meaning": "to make",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to making or creating something",
+        "example": "料理を作る。 (Ryouri o tsukuru.)"
+      },
+      {
+        "japanId": "58",
+        "word": "書く",
+        "pronunciation": "kaku",
+        "meaning": "to write",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to writing",
+        "example": "日記を書く。 (Nikki o kaku.)"
+      },
+      {
+        "japanId": "59",
+        "word": "聞く",
+        "pronunciation": "kiku",
+        "meaning": "to hear",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to hearing or listening",
+        "example": "ニュースを聞く。 (Nyuusu o kiku.)"
+      },
+      {
+        "japanId": "60",
+        "word": "見る",
+        "pronunciation": "miru",
+        "meaning": "to see",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to seeing or watching",
+        "example": "映画を見る。 (Eiga o miru.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 7,
+    "image": "https://i.ibb.co.com/HHtX0mL/7jp-card.jpg",
+    "descriptions":"Master verbs like 遊ぶ (asobu - to play) and 働 (hataraku - to work) for everyday routines.",
+    "data": [
+      {
+        "japanId": "61",
+        "word": "歌う",
+        "pronunciation": "utau",
+        "meaning": "to sing",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to singing",
+        "example": "歌を歌う。 (Uta o utau.)"
+      },
+      {
+        "japanId": "62",
+        "word": "話す",
+        "pronunciation": "hanasu",
+        "meaning": "to speak",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to speaking",
+        "example": "友達と話す。 (Tomodachi to hanasu.)"
+      },
+      {
+        "japanId": "63",
+        "word": "起きる",
+        "pronunciation": "okiru",
+        "meaning": "to wake up",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to waking up",
+        "example": "毎朝、早く起きる。 (Maiasa, hayaku okiru.)"
+      },
+      {
+        "japanId": "64",
+        "word": "寝る",
+        "pronunciation": "neru",
+        "meaning": "to sleep",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to sleeping",
+        "example": "夜、早く寝る。 (Yoru, hayaku neru.)"
+      },
+      {
+        "japanId": "65",
+        "word": "遊ぶ",
+        "pronunciation": "asobu",
+        "meaning": "to play",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to playing",
+        "example": "公園で遊ぶ。 (Kouen de asobu.)"
+      },
+      {
+        "japanId": "66",
+        "word": "働く",
+        "pronunciation": "hataraku",
+        "meaning": "to work",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to working",
+        "example": "会社で働く。 (Kaisha de hataraku.)"
+      },
+      {
+        "japanId": "67",
+        "word": "学ぶ",
+        "pronunciation": "manabu",
+        "meaning": "to learn",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to learning",
+        "example": "新しいことを学ぶ。 (Atarashii koto o manabu.)"
+      },
+      {
+        "japanId": "68",
+        "word": "探す",
+        "pronunciation": "sagasu",
+        "meaning": "to search",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to searching for something",
+        "example": "仕事を探す。 (Shigoto o sagasu.)"
+      },
+      {
+        "japanId": "69",
+        "word": "考える",
+        "pronunciation": "kangaeru",
+        "meaning": "to think",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to thinking",
+        "example": "深く考える。 (Fukaku kangaeru.)"
+      },
+      {
+        "japanId": "70",
+        "word": "感じる",
+        "pronunciation": "kanjiru",
+        "meaning": "to feel",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to feeling or experiencing emotions",
+        "example": "喜びを感じる。 (Yorokobi o kanjiru.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 8,
+    "image": "https://i.ibb.co.com/t3nyYHr/8jp-card.jpg",
+    "descriptions":"Express emotions with words like 笑う (warau - to laugh) and 悲しむ (kanashimu - to be sad).",
+    "data": [
+      {
+        "japanId": "71",
+        "word": "笑う",
+        "pronunciation": "warau",
+        "meaning": "to laugh",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to laughing",
+        "example": "ジョークを聞いて笑う。 (Jooku o kiite warau.)"
+      },
+      {
+        "japanId": "72",
+        "word": "泣く",
+        "pronunciation": "naku",
+        "meaning": "to cry",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to crying",
+        "example": "悲しい映画を見て泣く。 (Kanashii eiga o mite naku.)"
+      },
+      {
+        "japanId": "73",
+        "word": "怒る",
+        "pronunciation": "okoru",
+        "meaning": "to get angry",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to getting angry",
+        "example": "ミスをして怒る。 (Misu o shite okoru.)"
+      },
+      {
+        "japanId": "74",
+        "word": "驚く",
+        "pronunciation": "odoroku",
+        "meaning": "to be surprised",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to being surprised",
+        "example": "ニュースを聞いて驚く。 (Nyuusu o kiite odoroku.)"
+      },
+      {
+        "japanId": "75",
+        "word": "安心する",
+        "pronunciation": "anshin suru",
+        "meaning": "to feel relieved",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to feeling relieved",
+        "example": "結果を聞いて安心する。 (Kekka o kiite anshin suru.)"
+      },
+      {
+        "japanId": "76",
+        "word": "心配する",
+        "pronunciation": "shinpai suru",
+        "meaning": "to worry",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to worrying",
+        "example": "テストのことを心配する。 (Tesuto no koto o shinpai suru.)"
+      },
+      {
+        "japanId": "77",
+        "word": "喜ぶ",
+        "pronunciation": "yorokobu",
+        "meaning": "to be pleased",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to being pleased",
+        "example": "成功を喜ぶ。 (Seikou o yorokobu.)"
+      },
+      {
+        "japanId": "78",
+        "word": "悲しむ",
+        "pronunciation": "kanashimu",
+        "meaning": "to be sad",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to being sad",
+        "example": "出来事に悲しむ。 (Dekigoto ni kanashimu.)"
+      },
+      {
+        "japanId": "79",
+        "word": "楽しむ",
+        "pronunciation": "tanoshimu",
+        "meaning": "to enjoy",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to enjoying something",
+        "example": "音楽を楽しむ。 (Ongaku o tanoshimu.)"
+      },
+      {
+        "japanId": "80",
+        "word": "愛する",
+        "pronunciation": "aisuru",
+        "meaning": "to love",
+        "part_of_speech": "verb",
+        "difficulty": "medium",
+        "when_to_say": "When referring to loving someone or something",
+        "example": "家族を愛する。 (Kazoku o aisuru.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 9,
+    "image": "https://i.ibb.co.com/28QfGjs/9jp-card.jpg",
+    "descriptions":"Identify places using terms like 空港 (kuukou - airport) and 病院 (byouin - hospital).",
+    "data": [
+      {
+        "japanId": "81",
+        "word": "空港",
+        "pronunciation": "kuukou",
+        "meaning": "airport",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to an airport",
+        "example": "空港に到着する。 (Kuukou ni touchaku suru.)"
+      },
+      {
+        "japanId": "82",
+        "word": "病院",
+        "pronunciation": "byouin",
+        "meaning": "hospital",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a hospital",
+        "example": "病院に行く。 (Byouin ni iku.)"
+      },
+      {
+        "japanId": "83",
+        "word": "郵便局",
+        "pronunciation": "yuubinkyoku",
+        "meaning": "post office",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a post office",
+        "example": "郵便局で手紙を出す。 (Yuubinkyoku de tegami o dasu.)"
+      },
+      {
+        "japanId": "84",
+        "word": "図書館",
+        "pronunciation": "toshokan",
+        "meaning": "library",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a library",
+        "example": "図書館で本を読む。 (Toshokan de hon o yomu.)"
+      },
+      {
+        "japanId": "85",
+        "word": "銀行",
+        "pronunciation": "ginkou",
+        "meaning": "bank",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a bank",
+        "example": "銀行でお金を引き出す。 (Ginkou de okane o hikidasu.)"
+      },
+      {
+        "japanId": "86",
+        "word": "スーパーマーケット",
+        "pronunciation": "suupaamaaketto",
+        "meaning": "supermarket",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a supermarket",
+        "example": "スーパーマーケットで買い物をする。 (Suupaamaaketto de kaimono o suru.)"
+      },
+      {
+        "japanId": "87",
+        "word": "レストラン",
+        "pronunciation": "resutoran",
+        "meaning": "restaurant",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a restaurant",
+        "example": "レストランで食事をする。 (Resutoran de shokuji o suru.)"
+      },
+      {
+        "japanId": "88",
+        "word": "ホテル",
+        "pronunciation": "hoteru",
+        "meaning": "hotel",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a hotel",
+        "example": "ホテルに泊まる。 (Hoteru ni tomaru.)"
+      },
+      {
+        "japanId": "89",
+        "word": "コンビニ",
+        "pronunciation": "konbini",
+        "meaning": "convenience store",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a convenience store",
+        "example": "コンビニでお菓子を買う。 (Konbini de okashi o kau.)"
+      },
+      {
+        "japanId": "90",
+        "word": "警察",
+        "pronunciation": "keisatsu",
+        "meaning": "police",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to the police",
+        "example": "警察に通報する。 (Keisatsu ni tsuuhou suru.)"
+      }
+    ]
+  },
+  {
+    "lesson_no": 10,
+    "image": "https://i.ibb.co.com/fFJfvbg/10jp-card.jpg",
+    "descriptions":"Explore cultural and recreational vocabulary like 祭り (matsuri - festival) and 旅行 (ryokou - travel).",
+    "data": [
+      {
+        "japanId": "91",
+        "word": "祭り",
+        "pronunciation": "matsuri",
+        "meaning": "festival",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a festival",
+        "example": "夏祭りに行く。 (Natsu matsuri ni iku.)"
+      },
+      {
+        "japanId": "92",
+        "word": "旅行",
+        "pronunciation": "ryokou",
+        "meaning": "travel",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to travel",
+        "example": "家族と旅行する。 (Kazoku to ryokou suru.)"
+      },
+      {
+        "japanId": "93",
+        "word": "映画館",
+        "pronunciation": "eigakan",
+        "meaning": "cinema",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a cinema",
+        "example": "映画館で映画を見る。 (Eigakan de eiga o miru.)"
+      },
+      {
+        "japanId": "94",
+        "word": "博物館",
+        "pronunciation": "hakubutsukan",
+        "meaning": "museum",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a museum",
+        "example": "博物館を見学する。 (Hakubutsukan o kengaku suru.)"
+      },
+      {
+        "japanId": "95",
+        "word": "遊園地",
+        "pronunciation": "yuuenchi",
+        "meaning": "amusement park",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to an amusement park",
+        "example": "遊園地で遊ぶ。 (Yuuenchi de asobu.)"
+      },
+      {
+        "japanId": "96",
+        "word": "動物園",
+        "pronunciation": "doubutsuen",
+        "meaning": "zoo",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a zoo",
+        "example": "動物園で動物を見る。 (Doubutsuen de doubutsu o miru.)"
+      },
+      {
+        "japanId": "97",
+        "word": "植物園",
+        "pronunciation": "shokubutsuen",
+        "meaning": "botanical garden",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a botanical garden",
+        "example": "植物園を散歩する。 (Shokubutsuen o sanpo suru.)"
+      },
+      {
+        "japanId": "98",
+        "word": "美術館",
+        "pronunciation": "bijutsukan",
+        "meaning": "art museum",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to an art museum",
+        "example": "美術館で絵を見る。 (Bijutsukan de e o miru.)"
+      },
+      {
+        "japanId": "99",
+        "word": "温泉",
+        "pronunciation": "onsen",
+        "meaning": "hot spring",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a hot spring",
+        "example": "温泉に入る。 (Onsen ni hairu.)"
+      },
+      {
+        "japanId": "100",
+        "word": "城",
+        "pronunciation": "shiro",
+        "meaning": "castle",
+        "part_of_speech": "noun",
+        "difficulty": "difficult",
+        "when_to_say": "When referring to a castle",
+        "example": "城を訪れる。 (Shiro o otozureru.)"
       }
     ]
   }

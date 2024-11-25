@@ -16,12 +16,12 @@ import Login from './Component/LogSign/Login';
 import Signup from './Component/LogSign/Signup';
 import AuthProvider from './Provider/AuthProvider';
 import JapanLesson from './Component/Japans/JapanLesson';
-
+import ErrorPage from './Component/Pages/ErrorPage';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

@@ -36,9 +36,10 @@ const SuccessSection = () => {
 
     return (
         <div className="py-16 bg-gray-50">
-            <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-sky-600 mb-10">
+            <h2 className="text-center text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-10">
                 Our Achievements
             </h2>
+            <p className="text-center lg:px-[20rem] mb-10">Celebrate our milestones of excellence! From satisfied learners to prestigious accolades, our achievements reflect the impact we've made in shaping bright futures.</p>
             <div className="grid gap-8 py-7 rounded-2xl px-6 bg-sky-500 sm:px-8 md:px-16 lg:px-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 {stats.map((stat) => (
                     <div
