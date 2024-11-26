@@ -33,7 +33,7 @@ const Japans = () => {
                             <h2 className="card-title text-3xl font-bold text-white mb-4">
                                 Lesson {lesson.lesson_no}
                             </h2>
-                            <p className="text-white mb-2 text-justify">
+                            <p className="text-white lg:mt-10 lg:text-center mb-2 text-justify ">
                                 {lesson.descriptions}
 
                             </p>
@@ -47,6 +47,13 @@ const Japans = () => {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="items-center justify-center flex">
+            <Link to={'/tutorials'}>
+                <button className="btn md:mt-5 lg:mt-0 text-2xl bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 text-white rounded-lg px-8  shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                Go Tutorial
+                </button>
+            </Link>
             </div>
         </div>
     );

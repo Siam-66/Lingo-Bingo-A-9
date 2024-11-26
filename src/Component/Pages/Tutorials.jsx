@@ -106,7 +106,7 @@ const Tutorials = () => {
                 </div>
             </div>
 
-            {/* Action Buttons */}
+
             <div className="flex justify-center mt-10 space-x-4">
                 <Link 
                     to="/startLearning" 
