@@ -40,7 +40,7 @@ const SuccessSection = () => {
                 Our Achievements
             </h2>
             <p className="text-center lg:px-[20rem] mb-10">Celebrate our milestones of excellence! From satisfied learners to prestigious accolades, our achievements reflect the impact we've made in shaping bright futures.</p>
-            <div className="grid gap-8 py-7 rounded-2xl px-6 bg-sky-500 sm:px-8 md:px-16 lg:px-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid gap-8 py-7 rounded-2xl px-6 bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 sm:px-8 md:px-16 lg:px-24 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
                 {stats.map((stat) => (
                     <div
                         key={stat.id}
@@ -51,7 +51,7 @@ const SuccessSection = () => {
                             {stat.title}
                         </div>
                         <div className="stat-value text-4xl font-bold text-gray-800 mt-2">
-                            <CountUp start={0} end={stat.count} duration={2.5} separator="," />
+                            <CountUp start={0} end={stat.count} duration={8} separator="," />
                         </div>
                         <div className="stat-desc text-sm text-gray-500 mt-2 text-center">
                             {stat.desc}

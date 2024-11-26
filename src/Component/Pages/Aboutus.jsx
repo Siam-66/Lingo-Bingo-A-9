@@ -50,7 +50,6 @@ const Aboutus = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-10">
       <div className="container mx-auto px-4">
-        {/* About Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center bg-white p-8 rounded-lg shadow-md">
           <div className="flex-1">
             <h1 className="text-5xl font-bold bg-gradient-to-r from-sky-400 via-sky-900 to-blue-800 bg-clip-text text-transparent">
@@ -62,9 +61,11 @@ const Aboutus = () => {
               is to continually learn and advance in the field of web development.
             </p>
             <div className="mt-6 flex space-x-4">
+            <a href="mailto:siammahmud66@gmail.com">
               <button className="btn bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 text-white">
                 Contact Me
               </button>
+              </a>
               <a href="https://github.com/Siam-66?tab=repositories" target="_blank">
                 <button className="btn btn-outline hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:border-white">
                   View Projects
@@ -90,7 +91,6 @@ const Aboutus = () => {
           </div>
         </div>
 
-        {/* Recent Projects */}
         <section className="mt-10 shadow-md p-5 rounded-md">
           <h2 className="text-3xl font-semibold text-gray-700">Recent Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
@@ -111,7 +111,6 @@ const Aboutus = () => {
           </div>
         </section>
 
-        {/* Currently Learning */}
         <section className="mt-10 shadow-md p-2 rounded-md">
           <h2 className="text-3xl font-semibold text-gray-700">Currently Learning</h2>
           <ul className="list-disc ml-6 mt-4 text-gray-600 space-y-2">
@@ -122,10 +121,9 @@ const Aboutus = () => {
           </ul>
         </section>
 
-        {/* Get in Touch */}
         <section className="mt-10">
           <h2 className="text-3xl font-semibold text-gray-700">Get in Touch</h2>
-          <div className="bg-white p-6 rounded-lg flex items-center justify-between shadow-md mt-4">
+          <div className="bg-white p-6 rounded-lg md:flex items-center justify-between shadow-md mt-4">
             <p className="text-lg text-gray-600">
               Feel free to reach out for collaborations or just a friendly chat!
             </p>

@@ -17,6 +17,8 @@ import Signup from './Component/LogSign/Signup';
 import AuthProvider from './Provider/AuthProvider';
 import JapanLesson from './Component/Japans/JapanLesson';
 import ErrorPage from './Component/Pages/ErrorPage';
+import MyProfile from './Component/LogSign/MyProfile';
+import PrivateRoute from './routes/PrivateRoute';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,11 +40,19 @@ const router = createBrowserRouter([
       },
       {
         path: "tutorials",
-        element: <Tutorials></Tutorials> ,
+        element:<PrivateRoute>
+          <Tutorials></Tutorials>
+        </PrivateRoute>,
       },
       {
         path: "aboutus",
         element: <Aboutus></Aboutus> ,
+      },
+      {
+        path: "myProfile",
+        element:<PrivateRoute>
+          <MyProfile></MyProfile>
+        </PrivateRoute>,
       },
       {
         path: "login",
