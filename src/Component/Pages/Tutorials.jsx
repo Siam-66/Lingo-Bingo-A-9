@@ -62,8 +62,8 @@ const Tutorials = () => {
                 Japanese Tutorial
             </h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-white  rounded-xl overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8  ">
+                <div className="bg-white  rounded-xl overflow-hidden ">
                     <div className="aspect-video">
                         <iframe
                             width="100%"
@@ -76,14 +76,14 @@ const Tutorials = () => {
                         ></iframe>
                     </div>
                     <div className="p-4">
-                        <h2 className="text-2xl font-semibold text-sky-700">
+                        <h2 className="text-2xl  font-semibold text-sky-700">
                             {tutorialVideos.find(v => v.id === activeVideo)?.title}
                         </h2>
                     </div>
                 </div>
 
 
-                <div className="space-y-4 overflow-y-auto bg-base-100 p-2 max-h-[600px]">
+                <div className="space-y-4 overflow-y-auto bg-base-100  p-2 max-h-[600px]">
                     {tutorialVideos.map((video) => (
                         <div 
                             key={video.id}
