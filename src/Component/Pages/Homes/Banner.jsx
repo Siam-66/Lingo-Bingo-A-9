@@ -32,15 +32,27 @@ const Banner = () => {
                     <source src={vBanner} type="video/mp4" />
                 </video>
                 
-                <div className="absolute inset-0 flex flex-col justify-center items-center mt-14 z-20 top-[50px] lg:top-[250px] md:top-[20px] animate__animated animate__backInDown">
+                <div className="absolute inset-0 flex flex-col justify-center items-center mt-14 z-20 top-[50px] lg:top-[250px] md:top-[80px] animate__animated animate__backInDown">
                     <h1 className="lg:text-6xl md:text-5xl text-3xl font-bold text-white">Welcome to Lingo Bingo</h1>
                     <p className="mt-4 lg:text-2xl md:text-xl text-white mb-5">Boost Your Vocabulary, One Bingo at a Time!</p>
-                    <Link 
+                    
+                    <div className='flex gap-5 md:mt-5'>
+                        <div>
+                        <Link 
                         to="/startLearning" 
-                        className="mt-2 text-white hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:border-sky-600 hover:scale-105 duration-[0.3s] lg:text-4xl md:text-2xl border-2 p-3 rounded-2xl font-semibold"
-                    >
+                        className="mt-2 text-white hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:border-sky-600 hover:scale-105 duration-[0.3s] lg:text-3xl md:text-2xl text-sm border-2 p-3 rounded-2xl font-semibold">
                         Start Learning
                     </Link>
+                        </div>
+                        <div>
+                        <Link 
+                        to="/tutorials" 
+                        className="mt-2 text-white hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:border-sky-600 hover:scale-105 duration-[0.3s] lg:text-3xl md:text-2xl  text-sm border-2 p-3 rounded-2xl font-semibold">
+                        Watch Tutorial
+                    </Link>
+                        </div>
+                    </div>
+
                 </div>
 
 
