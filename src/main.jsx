@@ -19,6 +19,8 @@ import JapanLesson from './Component/Japans/JapanLesson';
 import ErrorPage from './Component/Pages/ErrorPage';
 import MyProfile from './Component/LogSign/MyProfile';
 import PrivateRoute from './routes/PrivateRoute';
+import UpdateInfo from './Component/LogSign/UpdateInfo';
+import ForgetPassword from './Component/LogSign/ForgetPassword';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,7 +33,9 @@ const router = createBrowserRouter([
       },
       {
         path: "japans/:lesson_no",
-        element: <JapanLesson></JapanLesson> ,
+        element:<PrivateRoute>
+          <JapanLesson></JapanLesson> 
+        </PrivateRoute>,
         loader: () => fetch('/lingoBingo.json')
       },
       {
@@ -53,6 +57,16 @@ const router = createBrowserRouter([
         element:<PrivateRoute>
           <MyProfile></MyProfile>
         </PrivateRoute>,
+      },
+      {
+        path: "updateInfo",
+        element:<PrivateRoute>
+          <UpdateInfo></UpdateInfo>
+        </PrivateRoute>,
+      },
+      {
+        path: "forgetPassword",
+        element: <ForgetPassword></ForgetPassword> ,
       },
       {
         path: "login",

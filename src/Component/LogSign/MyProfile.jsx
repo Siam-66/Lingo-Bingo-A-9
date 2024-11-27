@@ -32,7 +32,7 @@ const MyProfile = () => {
                     </div>
                 </div>
                 <div className="text-center">
-                    <Link to="/updateProfile">
+                    <Link to="/UpdateInfo">
                         <button className="btn bg-gradient-to-r text-lg from-sky-300 via-sky-400 to-blue-500 text-white rounded-lg px-8  shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
                             Update Profile
                         </button>
