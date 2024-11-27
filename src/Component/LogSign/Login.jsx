@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Image1 from "/assets/sakura-unscreen.gif";
-
+import { FcGoogle } from "react-icons/fc";
 const Login = () => {
   const { userLogin, setUser } = useContext(AuthContext);
   const [email, setEmail] = useState(""); 
@@ -92,11 +92,21 @@ const Login = () => {
             </Link>
           </p>
           <img
-            className="w-[15rem] absolute top-60 right-64"
+            className="w-[15rem] absolute top-80 right-64"
             src={Image1}
             alt=""
           />
+          <div>
           <p className="text-center">Or</p>
+
+          <div className="px-16 mt-4">
+            <div className="flex items-center justify-center rounded-2xl border border-black py-1">
+            <button className="flex items-center justify-center"><FcGoogle className="size-6" />Sign up with google</button>
+          </div>
+          </div>
+
+          </div>
+
         </form>
       </div>
     </div>
