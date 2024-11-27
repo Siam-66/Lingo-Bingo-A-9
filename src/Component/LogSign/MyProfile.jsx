@@ -16,10 +16,6 @@ const MyProfile = () => {
                 <span className="text-5xl">
                 {user && user?.displayName}
                 </span>
-                
-                
-                
-                
             </h1>
                 <div className="flex justify-center mb-4">
                     <img src={user && user?.photoURL} alt={user && user?.displayName} className="w-32 h-32 rounded-full" />

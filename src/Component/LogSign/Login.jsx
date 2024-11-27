@@ -3,8 +3,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Image1 from "/assets/sakura-unscreen.gif";
 import { FcGoogle } from "react-icons/fc";
+
 const Login = () => {
-  const { userLogin, setUser } = useContext(AuthContext);
+  const { userLogin, googleSignIn, setUser } = useContext(AuthContext);
   const [email, setEmail] = useState(""); 
   const [error, setError] = useState({});
 
@@ -21,11 +22,22 @@ const Login = () => {
       .then((result) => {
         const user = result.user;
         setUser(user);
-        navigate(location?.state ? location.state : "/");
+        navigate(location?.state?.from || "/");
       })
       .catch((err) => {
         setError({ ...error, login: err.code });
         alert(err.code);
+      });
+  };
+
+  const handleGoogleSignIn = () => {
+    googleSignIn()
+      .then((user) => {
+        navigate(location?.state?.from || "/");
+      })
+      .catch((error) => {
+        console.error("Google Sign-In Error:", error);
+        setError({ ...error, google: error.code });
       });
   };
 
@@ -47,8 +59,8 @@ const Login = () => {
               type="email"
               placeholder="email"
               className="input input-bordered"
-              value={email} 
-              onChange={(e) => setEmail(e.target.value)} 
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
@@ -73,7 +85,6 @@ const Login = () => {
               </Link>
             </label>
           </div>
-
           <div className="form-control">
             {error.login && (
               <label className="label text-sm text-red-600">
@@ -84,29 +95,26 @@ const Login = () => {
               Login
             </button>
           </div>
-          
           <p>
             Don't have an account? Why not
             <Link to="/signup" className="link text-sky-600 pl-2">
               Sign up
             </Link>
           </p>
+          <div>
+            <p className="text-center my-2">Or</p>
+            <button
+              onClick={handleGoogleSignIn}
+              className="flex items-center justify-center rounded-2xl border border-black py-1 w-full"
+            >
+              <FcGoogle className="mr-2" /> Sign in with Google
+            </button>
+          </div>
           <img
-            className="w-[15rem] absolute top-80 right-64"
+            className="w-[15rem] absolute top-[20rem] right-[16rem]"
             src={Image1}
             alt=""
           />
-          <div>
-          <p className="text-center">Or</p>
-
-          <div className="px-16 mt-4">
-            <div className="flex items-center justify-center rounded-2xl border border-black py-1">
-            <button className="flex items-center justify-center"><FcGoogle className="size-6" />Sign up with google</button>
-          </div>
-          </div>
-
-          </div>
-
         </form>
       </div>
     </div>

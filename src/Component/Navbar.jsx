@@ -5,7 +5,7 @@ import Image1 from "/assets/Lingo Bingo.png";
 import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
-  const { user, logOut } = useContext(AuthContext);
+  const { user, logOut } = useContext(AuthContext); 
 
   const links = (
     <>
@@ -29,7 +29,6 @@ const Navbar = () => {
           Start Learning
         </NavLink>
       </li>
-      {/* Conditionally render the Tutorials link */}
       {user?.email && (
         <li className="hover:bg-sky-400 hover:text-white hover:rounded-2xl">
           <NavLink
@@ -85,7 +84,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center justify-start">
             <NavLink to="/" className="flex items-center justify-start cursor-pointer">
-              <img className="w-20" src={Image1} alt="" />
+              <img className="w-20" src={Image1} alt="Lingo Bingo Logo" />
               <div className="font-semibold md:text-3xl text-lg">Lingo Bingo</div>
             </NavLink>
           </div>
@@ -112,22 +111,25 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-            <div>
-              {user?.email ? (
-                <button
-                  onClick={logOut}
-                  className="px-5 py-2 rounded-3xl md:text-xl text-sl font-semibold border-sky-500 hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:text-white border"
-                >
-                  Log Out
-                </button>
-              ) : (
-                <NavLink
-                  to="login"
-                  className="px-5 py-2 rounded-3xl md:text-xl text-sl font-semibold border-sky-500 hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:text-white border"
-                >
-                  Log in
-                </NavLink>
-              )}
+            <div className="flex flex-col items-start">
+
+              <div>
+                {user?.email ? (
+                  <button
+                    onClick={logOut}
+                    className="px-5 py-2 rounded-3xl md:text-xl text-sl font-semibold border-sky-500 hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:text-white border"
+                  >
+                    Log Out
+                  </button>
+                ) : (
+                  <NavLink
+                    to="login"
+                    className="px-5 py-2 rounded-3xl md:text-xl text-sl font-semibold border-sky-500 hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:text-white border"
+                  >
+                    Log in
+                  </NavLink>
+                )}
+              </div>
             </div>
           </div>
         </div>
