@@ -33,7 +33,7 @@ const JapanLesson = () => {
         {currentLesson?.data.map((wordData) => (
           <div
             key={wordData.japanId}
-            className={`card shadow-lg rounded-xl border hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden`}
+            className={`card shadow-lg rounded-xl border hover:shadow-2xl transform  transition-all duration-300 overflow-hidden`}
           >
             <div className="relative">
 
@@ -60,18 +60,22 @@ const JapanLesson = () => {
                 <span className="font-semibold">Part of Speech:</span> {wordData.part_of_speech}
               </p>
               <button
-                className="btn btn-outline btn-sm hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:border-white mt-2"
+                className="btn btn-outline btn-sm hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-500 hover:border-white mt-2 text-base"
                 onClick={() => setModalData(wordData)}
               >
                 When to Say
               </button>
-              <button
-                className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-500 hover:bg-gradient-to-r from-sky-300 via-sky-400 to-blue-5000 text-white shadow-lg focus:outline-none transition-all hover:scale-110 mt-2"
-                onClick={() => pronounceWord(wordData.word)}
-                aria-label="Pronounce word"
-              >
-                <GoUnmute className="text-xl" />
+              <div className="px-12">
+               <div className=" bg-gradient-to-r py-1 from-sky-300 via-sky-400 to-blue-500 text-white focus:outline-none transition-all hover:scale-110 mt-2 rounded-full shadow-xl" onClick={() => pronounceWord(wordData.word)}
+                aria-label="Pronounce word">
+                <button
+                className="inline-flex items-center justify-center w-12 h-12 ">
+                <GoUnmute className="text-3xl" />
               </button>
+              </div>
+              </div>
+
+
             </div>
           </div>
         ))}
