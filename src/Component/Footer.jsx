@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Image1 from "/assets/Lingo Bingo.png";
 
 const Footer = () => {
@@ -55,23 +56,23 @@ const Footer = () => {
   
       <nav>
     <h6 className="footer-title md:text-xl">Services</h6>
-    <a className="link link-hover">Profile</a>
-    <a className="link link-hover">Start Learning</a>
-    <a className="link link-hover">Tutorials</a>
+    <Link to="/startLearning" className="link link-hover">Start Learning</Link>
+    <Link to="/tutorials" className="link link-hover">Tutorials</Link>
+    <Link to="/myProfile" className="link link-hover">Profile</Link>
   
   </nav>
   <nav>
     <h6 className="footer-title md:text-xl">Company</h6>
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
+    <Link to="/aboutus" className="link link-hover">About us</Link>
+    <Link to="/" className="link link-hover">Contact</Link>
+    <Link to="/" className="link link-hover">Jobs</Link>
   
   </nav>
   <nav>
     <h6 className="footer-title md:text-xl">Legal</h6>
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">User Agreement</a>
+    <Link to="/" className="link link-hover">Terms of use</Link>
+    <Link to="/" className="link link-hover">Privacy policy</Link>
+    <Link to="/userAgreement" className="link link-hover">User Agreement</Link>
   </nav>
 
 </footer>
@@ -79,7 +80,7 @@ const Footer = () => {
 <hr />
   <div className="bg-base-200 text-black  p-4">
 
-    <p className="text-center">Copyright © {new Date().getFullYear()} - All right reserved</p>
+    <p className="text-center">Copyright © {new Date().getFullYear()} - All right reserved by Lingo Bingo Ltd.</p>
   </div>
         </div>
     );

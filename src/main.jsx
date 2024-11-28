@@ -21,6 +21,7 @@ import MyProfile from './Component/LogSign/MyProfile';
 import PrivateRoute from './routes/PrivateRoute';
 import UpdateInfo from './Component/LogSign/UpdateInfo';
 import ForgetPassword from './Component/LogSign/ForgetPassword';
+
 const router = createBrowserRouter([
   {
     path: "/",
