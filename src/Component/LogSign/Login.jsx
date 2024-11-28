@@ -101,21 +101,22 @@ const Login = () => {
               Sign up
             </Link>
           </p>
-          <div>
-            <p className="text-center my-2">Or</p>
-            <button
-              onClick={handleGoogleSignIn}
-              className="flex items-center justify-center rounded-2xl border border-black py-1 w-full"
-            >
-              <FcGoogle className="mr-2" /> Sign in with Google
-            </button>
-          </div>
+          <p className="text-center pb-12 mt-5">Or</p>
+
           <img
             className="w-[15rem] absolute top-[20rem] right-[16rem]"
             src={Image1}
             alt=""
           />
         </form>
+                  <div className="px-20 absolute top-[25rem] left-4">
+            <button
+              onClick={handleGoogleSignIn}
+              className="flex items-center justify-center rounded-2xl border border-black py-1 w-full px-2"
+            >
+              <FcGoogle className="mr-2 size-9" /> Sign in with Google
+            </button>
+          </div>
       </div>
     </div>
   );

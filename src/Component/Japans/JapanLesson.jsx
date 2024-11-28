@@ -66,7 +66,7 @@ const JapanLesson = () => {
                 When to Say
               </button>
               <div className="px-12">
-               <div className=" bg-gradient-to-r py-1 from-sky-300 via-sky-400 to-blue-500 text-white focus:outline-none transition-all hover:scale-110 mt-2 rounded-full shadow-xl" onClick={() => pronounceWord(wordData.word)}
+              <div className=" bg-gradient-to-r py-1 from-sky-300 via-sky-400 to-blue-500 text-white focus:outline-none transition-all hover:scale-110 mt-2 rounded-full shadow-xl" onClick={() => pronounceWord(wordData.word)}
                 aria-label="Pronounce word">
                 <button
                 className="inline-flex items-center justify-center w-12 h-12 ">
