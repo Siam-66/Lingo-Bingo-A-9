@@ -1,4 +1,4 @@
-# **Project Name: Lingo Bingo**
+# **Project Name: Lingo Bingo ✨**
 
 ## Live Website Link
 [**https://lingo-bingo-siam.netlify.app/**](#)
