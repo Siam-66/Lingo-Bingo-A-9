@@ -7,7 +7,7 @@
 [**https://docs.google.com/document/d/1uck_6gjiW22ytQMUEdznPxuxX4XB9wDz6fHJroTqCps/edit?tab=t.0**](#)
 
 ## Overview
-**Language Mastery** is an interactive language learning application designed to help users expand their vocabulary and improve their communication skills in multiple languages. This application focuses on making vocabulary learning fun and engaging through an intuitive and easy-to-use interface. Users can learn new words, practice pronunciation, and track their progress with ease.
+**Lingo Bingo** is an interactive language learning application designed to help users expand their vocabulary and improve their communication skills in multiple languages. This application focuses on making vocabulary learning fun and engaging through an intuitive and easy-to-use interface. Users can learn new words, practice pronunciation, and track their progress with ease.
 
 The app helps users overcome the common challenge of retaining vocabulary by providing personalized learning paths and interactive features. It's a perfect tool for language learners looking to improve their language skills at their own pace.
 
